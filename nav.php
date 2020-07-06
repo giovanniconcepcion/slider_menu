@@ -1,3 +1,4 @@
+<!-- Insert into PHPCode Snippets or header.php of your theme -->
 <div class="custom-nav-container">
     <div class="row">
         <div class="col nav-logo align-self-center">
