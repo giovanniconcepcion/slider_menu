@@ -1,0 +1,149 @@
+
+.custom-nav-container{
+	height:90px;
+	
+
+}
+
+.nav-logo, .driver-cta{
+ padding:0px;
+}
+.nav-logo img{
+	height:40px;
+	width:auto;
+
+}
+
+.nav-bars{
+	font-size:18px;
+	color: #C51130;
+}
+
+.col.driver-cta{
+	text-align:right;
+	z-index:1;
+}
+
+.driver-cta a{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	background-color: #C51130;
+	border:none;
+	z-index:100;
+}
+
+.driver-cta a:hover{
+	background-color:#AC0D28;
+}
+
+/*Navigation*/
+.mainnav{
+  position: fixed;
+  top: 10px;
+  left:10px;
+  z-index: 1;
+  background-color: transparent;
+  -webkit-transition: 600ms ease-in;
+  -moz-transition: 600ms ease;
+  -ms-transition: 600ms ease;
+  -o-transition: 600ms ease;
+  transition: 600ms ease;
+  transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.mainnav.open{
+	width:700px;
+	height:700px;
+}
+
+.mainnav .navigationcontain{
+  display: inline-block;
+  position: absolute;
+  left: -450px;
+  top: -700px;
+  height: 800px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, .8);
+  z-index: -10;
+  -webkit-transition: 600ms ease;
+  -moz-transition: 600ms ease;
+  -ms-transition: 600ms ease;
+  -o-transition: 600ms ease;
+  transition: 600ms ease;
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+  -moz-box-shadow: 0px 0px 30px rgba(29, 29, 29, 0.1);
+  -webkit-box-shadow: 0px 0px 30px rgba(29, 29, 29, 0.1);
+  -ms-box-shadow: 0px 0px 30px rgba(29, 29, 29, 0.1);
+  -o-box-shadow: 0px 0px 30px rgba(29, 29, 29, 0.1);
+  box-shadow: 0px 0px 30px rgba(29, 29, 29, 0.1);
+overflow:hidden;
+}
+
+.mainnav.open .navigationcontain{
+	left:-480px;
+	top:-460px;
+	-webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-container{
+    width:auto;
+    position: relative;
+    left:-300px;
+    margin-top:15px;
+    -webkit-transition: 400ms ease;
+    -moz-transition: 750ms ease;
+    -ms-transition: 750ms ease;
+    -o-transition: 750ms ease;
+    transition: 750ms ease;
+}
+
+.mainnav.open .nav-container{
+	left:-40px;
+}
+
+.nav-container li{
+    list-style: none;
+    margin-top:10px;
+		text-transform:uppercase;
+}
+
+.nav-container li a{
+	color:#000;
+	font-size:14px;
+	letter-spacing:2px;
+	font-weight:600;
+}
+
+.nav-container li a:hover{
+	text-decoration:none;
+	
+}
+.menu-button{
+	width:250px;
+}
+.menu-button:hover{
+	cursor:pointer;
+}
+
+.driver-cta{
+	top:20px;
+}
+.driver-cta a{
+	font-size: 10px;
+	letter-spacing:1px;
+}
+
+@media (min-width: 992px) {
+ .driver-cta a{
+  font-size: 16px;
+  letter-spacing:1px;
+  font-weight:400;
+ }
+}
